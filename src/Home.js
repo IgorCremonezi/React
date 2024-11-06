@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = ()=> {
     return (
         <div className="container text-center">
-            <h1 className="my-4">Atividades de React</h1>
+            <h1 className="my-4">Atividades de React - Igor Cremonezi</h1>
             <nav>
                 <ul className="nav flex-column align-items-center">
                     <li className="nav-item mb-2">
@@ -12,6 +12,9 @@ const Home = ()=> {
                     </li>
                     <li className="nav-item mb-2">
                         <Link className="nav-link btn btn-primary mx-2" to="/Atv02">Atividade 02</Link>
+                    </li>
+                    <li className="nav-item mb-2">
+                        <Link className="nav-link btn btn-primary mx-2" to="/Atv03">Atividade 03</Link>
                     </li>
                 </ul>
             </nav>
